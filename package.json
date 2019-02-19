@@ -1,5 +1,10 @@
 {
   "name": "crispy-neon",
+  "publisher": "marcushoile",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarcusHoile/crispy-neon.git"
+  },
   "displayName": "crispy-neon",
   "description": "A high contrast theme with crispy neon highlights",
   "version": "0.2.0",
