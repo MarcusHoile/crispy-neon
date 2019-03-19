@@ -20,7 +20,10 @@
 				"punctuation.definition.constant.elixir",
 				"entity.name.type.module",
 				"entity.name.type.class",
-				"punctuation.separator.namespace.ruby"
+				"punctuation.separator.namespace.ruby",
+				"punctuation.separator.key-value.js",
+				"entity.name.function.js",
+				"punctuation.separator.dictionary.key-value.json",
 			],
 			"settings": {
 				"foreground": "#c3e88d"
@@ -29,16 +32,27 @@
 		{
 			"scope": [
 				"string.quoted.double",
-				"string.quoted.double.interpolated"
+				"string.quoted.double.interpolated",
+				"string.quoted.single.js"
 			],
 			"settings": {
-				"foreground": "#F8CA00"
+				"foreground": "#FAD94C"
+			}
+		},
+		{
+			"scope": [
+				"support.function.variable.quoted.single.elixir"
+			],
+			"settings": {
+				"foreground": "#ce9178"
 			}
 		},
 		{
 			"scope": [
 				"constant.other.symbol.elixir",
-				"keyword.operator.comparison"
+				"keyword.operator.comparison",
+				"meta.object-literal.key.js",
+				"support.type.property-name.json"
 			],
 			"settings": {
 				"foreground": "#2bbac5"
@@ -47,7 +61,9 @@
 		{
 			"scope": [
 				"variable.other.constant",
-				"support.class.ruby"
+				"support.class.ruby",
+				"variable.other.readwrite.alias.js",
+				"variable.language.this.js"
 			],
 			"settings": {
 				"foreground": "#99ffff"
@@ -56,7 +72,10 @@
 		{
 			"scope": [
 				"comment.documentation.heredoc.elixir",
-				"comment.line.number-sign"
+				"comment.unused.elixir",
+				"comment.wildcard.elixir",
+				"comment.line.number-sign",
+				"comment.block.documentation.js"
 			],
 			"settings": {
 				"foreground": "#7285b7"
@@ -69,7 +88,12 @@
 				"keyword.operator.arithmetic.ruby",
 				"keyword.operator.arithmetic.elixir",
 				"keyword.operator.other.elixir",
-				"variable.other.readwrite.instance.ruby"
+				"variable.other.readwrite.instance.ruby",
+				"punctuation.separator.dictionary.pair.json",
+				"punctuation.definition.dictionary.begin.json",
+				"punctuation.definition.dictionary.end.json",
+				"punctuation.definition.array.begin.json",
+				"punctuation.definition.array.end.json",
 			],
 			"settings": {
 				"foreground": "#c792ea"
@@ -77,6 +101,7 @@
 		},
 		{
 			"scope": [
+				"variable.other.constant.js",
 				"parameter.variable.function.elixir",
 				"meta.function.method.with-arguments.ruby",
 				"meta.function.method.without-arguments.ruby",
