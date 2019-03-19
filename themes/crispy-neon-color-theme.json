@@ -24,6 +24,9 @@
 				"punctuation.separator.key-value.js",
 				"entity.name.function.js",
 				"punctuation.separator.dictionary.key-value.json",
+				"punctuation.definition.interpolation.begin.bracket.curly.scss",
+				"punctuation.definition.interpolation.end.bracket.curly.scss",
+				"punctuation.separator.key-value.scss"
 			],
 			"settings": {
 				"foreground": "#c3e88d"
@@ -33,7 +36,8 @@
 			"scope": [
 				"string.quoted.double",
 				"string.quoted.double.interpolated",
-				"string.quoted.single.js"
+				"string.quoted.single.js",
+				"string.quoted.single.scss"
 			],
 			"settings": {
 				"foreground": "#FAD94C"
@@ -52,7 +56,8 @@
 				"constant.other.symbol.elixir",
 				"keyword.operator.comparison",
 				"meta.object-literal.key.js",
-				"support.type.property-name.json"
+				"support.type.property-name.json",
+				"variable.interpolation.scss"
 			],
 			"settings": {
 				"foreground": "#2bbac5"
@@ -75,7 +80,8 @@
 				"comment.unused.elixir",
 				"comment.wildcard.elixir",
 				"comment.line.number-sign",
-				"comment.block.documentation.js"
+				"comment.block.documentation.js",
+				"comment.line.scss"
 			],
 			"settings": {
 				"foreground": "#7285b7"
@@ -94,6 +100,8 @@
 				"punctuation.definition.dictionary.end.json",
 				"punctuation.definition.array.begin.json",
 				"punctuation.definition.array.end.json",
+				"keyword.control.at-rule.media.scss",
+				"keyword.control.at-rule.import.scss"
 			],
 			"settings": {
 				"foreground": "#c792ea"
@@ -214,7 +222,7 @@
 				"entity.other.attribute-name.scss"
 			],
 			"settings": {
-				"foreground": "#d7ba7d"
+				"foreground": "#99ffff"
 			}
 		},
 		{
@@ -364,13 +372,20 @@
 			"scope": [
 				"support.type.vendored.property-name",
 				"support.type.property-name",
-				"variable.css",
-				"variable.scss",
 				"variable.other.less",
 				"source.coffee.embedded"
 			],
 			"settings": {
-				"foreground": "#d4d4d4"
+				"foreground": "#2bbac5"
+			}
+		},
+		{
+			"scope": [
+				"variable.css",
+				"variable.scss",
+			],
+			"settings": {
+				"foreground": "#fad94c"
 			}
 		},
 		{
