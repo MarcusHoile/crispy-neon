@@ -26,7 +26,8 @@
 				"punctuation.separator.dictionary.key-value.json",
 				"punctuation.definition.interpolation.begin.bracket.curly.scss",
 				"punctuation.definition.interpolation.end.bracket.curly.scss",
-				"punctuation.separator.key-value.scss"
+				"punctuation.separator.key-value.scss",
+				"punctuation.section.embedded.elixir"
 			],
 			"settings": {
 				"foreground": "#c3e88d"
@@ -57,7 +58,7 @@
 				"keyword.operator.comparison",
 				"meta.object-literal.key.js",
 				"support.type.property-name.json",
-				"variable.interpolation.scss"
+				"variable.interpolation.scss",
 			],
 			"settings": {
 				"foreground": "#2bbac5"
@@ -115,7 +116,8 @@
 				"meta.function.method.without-arguments.ruby",
 				"variable.other.ruby",
 				"meta.function-call.ruby",
-				"punctuation.section.function.ruby"
+				"punctuation.section.function.ruby",
+				"source.elixir.embedded.source"
 			],
 			"settings": {
 				"foreground": "#FFFFFF"
