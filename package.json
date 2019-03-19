@@ -5,9 +5,9 @@
     "type": "git",
     "url": "https://github.com/MarcusHoile/crispy-neon.git"
   },
-  "displayName": "crispy-neon",
+  "displayName": "Crisy Neon Theme",
   "description": "A high contrast theme with crispy neon highlights",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "engines": {
     "vscode": "^1.31.0"
   },
