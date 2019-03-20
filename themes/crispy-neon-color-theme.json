@@ -24,13 +24,20 @@
 				"punctuation.separator.key-value.js",
 				"entity.name.function.js",
 				"punctuation.separator.dictionary.key-value.json",
-				"punctuation.definition.interpolation.begin.bracket.curly.scss",
-				"punctuation.definition.interpolation.end.bracket.curly.scss",
 				"punctuation.separator.key-value.scss",
-				"punctuation.section.embedded.elixir"
+				"punctuation.section.embedded.elixir",
+				// "punctuation.terminator.rule.scss",
 			],
 			"settings": {
 				"foreground": "#c3e88d"
+			}
+		},
+		{
+			"scope": [
+				"entity.name.tag.css"
+			],
+			"settings": {
+				"foreground": "#C3FF68"
 			}
 		},
 		{
@@ -102,10 +109,12 @@
 				"punctuation.definition.array.begin.json",
 				"punctuation.definition.array.end.json",
 				"keyword.control.at-rule.media.scss",
-				"keyword.control.at-rule.import.scss"
+				"keyword.control.at-rule.import.scss",
+				"meta.property-list.scss"
 			],
 			"settings": {
-				"foreground": "#c792ea"
+				"foreground": "#b362ff"
+				// "foreground": "#c792ea"
 			}
 		},
 		{
@@ -197,12 +206,6 @@
 			"scope": "entity.name.tag",
 			"settings": {
 				"foreground": "#82aaff"
-			}
-		},
-		{
-			"scope": "entity.name.tag.css",
-			"settings": {
-				"foreground": "#d7ba7d"
 			}
 		},
 		{

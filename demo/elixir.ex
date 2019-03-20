@@ -5,18 +5,34 @@ defmodule Test do
 
   defstruct name: "John", age: 27
 
-  import Map
+  import Ecto.Multi
 
   @name "syntax test"
 
   @doc """
   Dummy function.
   """
-  def short(x \\ %{}), do: x
+  def one_liner(xs, list) when is_list(list), do: length(list)
 
-  def my_awesome_function(xs, list) when is_list(list), do: length(list)
+  def typical_function(attrs \\ %{}, _ignore) do
+    Multi.new()
+    |> Multi.update(:user, User.changeset(user, attrs))
+    |> Multi.update(:credential, Credential.changeset(creds, %{email: "my@email.com"}))
+    |> Multi.delete_all(:personal_info, Ecto.assoc(user, :profile))
+    |> Repo.transaction()
+    |> case do
+      {:ok, results} ->
+        do_more_things(results)
+      _ ->
+        {:error, "oops"}
+    end
+  end
 
-  def my_awesome_function(xs, _ignore) do
+  def selected_function(attrs) do
+    # everything is highlighted!
+  end
+
+  def silly_function do
     four = 2 + 2
     "some string"
     'binary'
