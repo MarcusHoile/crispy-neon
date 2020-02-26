@@ -1,7 +1,10 @@
 # Change Log
 All notable changes to the "crispy-neon" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.4.2]
+### Added
+- yaml theme support
+- ruby single quote string
 
 ## [0.4.1]
 ### Added
