@@ -26,6 +26,7 @@
 				"punctuation.separator.dictionary.key-value.json",
 				"punctuation.separator.key-value.scss",
 				"punctuation.section.embedded.elixir",
+				"punctuation.separator.key-value.mapping.yaml"
 				// "punctuation.terminator.rule.scss",
 			],
 			"settings": {
@@ -42,6 +43,9 @@
 		},
 		{
 			"scope": [
+				"string.quoted.single.ruby",
+				"string.quoted.single.yaml",
+				"string.unquoted.plain.out.yaml",
 				"string.quoted.double",
 				"string.quoted.double.interpolated",
 				"string.quoted.single.js",
@@ -61,6 +65,7 @@
 		},
 		{
 			"scope": [
+				"entity.name.tag.yaml",
 				"constant.other.symbol.elixir",
 				"keyword.operator.comparison",
 				"meta.object-literal.key.js",
